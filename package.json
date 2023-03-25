@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "http://mustafatalha222.github.io/mustafatalha222",
+    "homepage": "http://mustafatalha222.github.io/portfolio-app",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

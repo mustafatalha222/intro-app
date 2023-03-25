@@ -27,7 +27,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "homepage": "http://mustafatalha222.github.io/intro-app",
+    "homepage": "http://mustafatalha222.github.io/intro-app.",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },

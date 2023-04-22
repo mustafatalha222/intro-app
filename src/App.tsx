@@ -54,6 +54,7 @@ function App() {
         <div className="App" id={load ? "no-scroll" : "scroll"}>
           <Routes>
             <Route path="/" element={<Home />}></Route>
+            <Route path="/portfolio-app" element={<Home />}></Route>
             <Route path="/about" element={<About />}></Route>
             <Route path="/project" element={<Project />}></Route>
             <Route path="/contact" element={<Contact />}></Route>

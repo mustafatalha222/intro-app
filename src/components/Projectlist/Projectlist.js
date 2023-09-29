@@ -6,6 +6,7 @@ import taptap from "../../Assets/taptap.jpeg";
 import logly from "../../Assets/logly.png";
 import emoji from "../../Assets/emoji1.jfif";
 import raido from "../../Assets/raido.png";
+import bSecure_home from "../../Assets/bSecure_home.png";
 
 function Projectlist() {
   return (
@@ -40,6 +41,16 @@ function Projectlist() {
                 title="Raido"
                 description="Raido comes up with the idea of resolving the booking of commercial vehicles (7, 15, and 30 Seaters) and introduces a fast and easiest way of booking with one click."
                 ghLink="https://github.com/mustafatalha222/Raido"
+              />
+            </Col>
+
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={bSecure_home}
+                isBlog={false}
+                title="bSecure Checkout Solution"
+                description="One-Click checkout solution for your business with a strong focus on security and unifying major payment methods."
+                ghLink="https://www.bsecure.pk/"
               />
             </Col>
 

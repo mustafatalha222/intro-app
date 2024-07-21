@@ -39,25 +39,25 @@ function Header() {
       <Navbar.Collapse id="responsive-navbar-nav" className="responsive-navbar">
         <Nav className="ms-auto" defaultActiveKey="#home">
           <Nav.Item>
-            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+            <Nav.Link as={Link} to="/portfolio-app" onClick={() => updateExpanded(false)}>
               {' '}
               Home{' '}
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link as={Link} to="/about" onClick={() => updateExpanded(false)}>
+            <Nav.Link as={Link} to="/portfolio-app/about" onClick={() => updateExpanded(false)}>
               About
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
-            <Nav.Link as={Link} to="/project" onClick={() => updateExpanded(false)}>
+            <Nav.Link as={Link} to="/portfolio-app/project" onClick={() => updateExpanded(false)}>
               Projects
             </Nav.Link>
           </Nav.Item>
 
           <Nav.Item>
-            <Nav.Link as={Link} to="/contact" onClick={() => updateExpanded(false)}>
+            <Nav.Link as={Link} to="/portfolio-app/contact" onClick={() => updateExpanded(false)}>
               Contact
             </Nav.Link>
           </Nav.Item>

@@ -12,7 +12,7 @@ function Aboutpage() {
               About <span>Me</span>
             </h3>
             <p className="aboutdetails">
-              A committed and enthusiastic Web and Mobile App Developer with over 4+ years of experience, specializing
+              A committed and enthusiastic Web and Mobile App Developer with over 5+ years of experience, specializing
               in JavaScript but still eager to learn new technologies. <br />I am friendly, self-motivated, a team
               player, a good problem-solver, and hardworking individual who is always looking for new challenges. I
               thrive on challenges and constantly set goals for myself, so I have something to strive toward.

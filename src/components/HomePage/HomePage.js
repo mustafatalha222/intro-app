@@ -1,9 +1,9 @@
-import "../../pages/style.css";
-import { Container, Row, Col } from "react-bootstrap";
+import '../../pages/style.css'
+import { Container, Row, Col } from 'react-bootstrap'
 
-import { AiFillGithub, AiFillMail } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
-import Text from "./Text";
+import { AiFillGithub, AiFillMail } from 'react-icons/ai'
+import { FaLinkedinIn } from 'react-icons/fa'
+import Text from './Text'
 
 function Home() {
   return (
@@ -19,7 +19,7 @@ function Home() {
             <Text />
             <button
               onClick={() => {
-                window.open("https://github.com/mustafatalha222");
+                window.open('https://github.com/mustafatalha222')
               }}
               className="socailmediabtn"
             >
@@ -27,9 +27,7 @@ function Home() {
             </button>
             <button
               onClick={() => {
-                window.open(
-                  "https://www.linkedin.com/in/talha-mustafa-587327171/"
-                );
+                window.open('https://www.linkedin.com/in/mustafatalha222/')
               }}
               className="socailmediabtn"
             >
@@ -38,7 +36,7 @@ function Home() {
 
             <button
               onClick={() => {
-                window.location = "mailto:mustafatalha222@gmail.com";
+                window.location = 'mailto:mustafatalha222@gmail.com'
               }}
               className="socailmediabtn"
             >
@@ -52,7 +50,7 @@ function Home() {
         </Row>
       </Container>
     </div>
-  );
+  )
 }
 
-export default Home;
+export default Home
